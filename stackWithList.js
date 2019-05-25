@@ -10,7 +10,7 @@ class Node {
     }
 }
 
-class StackList {
+class StackWithList {
     constructor() {
         this.top = null;
         this.bottom = null;
@@ -50,7 +50,7 @@ class StackList {
     }
 
 
-    //print the stack value
+    //print the stack values
     printStack() {
         let head = this.top;
         while (head != null) {
@@ -60,7 +60,7 @@ class StackList {
     }
 }
 
-let myStack = new StackList()
+let myStack = new StackWithList()
 myStack.push("js");
 myStack.push("node");
 myStack.push("python");
