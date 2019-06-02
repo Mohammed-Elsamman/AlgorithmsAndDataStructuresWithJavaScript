@@ -10,6 +10,15 @@ class Node {
     }
 }
 
+/*
+************(FILO)*************
+*   the point of stack that you
+*   will insert in the last of it
+*   and remove from the last too
+ */
+
+
+
 class StackWithList {
     constructor() {
         this.top = null;
@@ -17,7 +26,7 @@ class StackWithList {
         this.length = 0;
     }
 
-    //push new node into stack
+    //push new node into stack&queue
     push(value) {
         const NewNod = new Node(value);
         if (this.length === 0) {
@@ -50,7 +59,7 @@ class StackWithList {
     }
 
 
-    //print the stack values
+    //print the stack&queue values
     printStack() {
         let head = this.top;
         while (head != null) {

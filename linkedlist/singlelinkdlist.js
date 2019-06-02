@@ -39,36 +39,17 @@ class LinkedList {
     }
 
     insert(index, value) {
-        // if (index > this.length - 1) {
-        //     console.log(`index of ${index} does not existing`)
-        // } else if (index == 0) {
-        //     this.prepend(value)
-        // } else if (index == this.length - 1) {
-        //     this.append(value)
-        // } else {
-        //     const NewNode = new Node(value)
-        //     let head = this.head;
-        //     let NumIndex = 0;
-        //     while (head != null) {
-        //         if (index - 1 == NumIndex) {
-        //             let HoldPointer = head.next;
-        //             head.next = NewNode;
-        //             NewNode.next = HoldPointer;
-        //             this.length++;
-        //         } else {
-        //             head = head.next;
-        //         }
-        //         NumIndex++;
-        //     }
-        // }
-
+        //check if the index equal to the length of the list
         if (index >= this.length) {
             return this.append(value)
         }
+        //check if the index equal to zero
         if (index === 0) {
             return this;
         }
+        //create a new node with node class
         const NewNode = new Node(value);
+        //find the index
         const leader = this.findIndex(index - 1);
         let HoldPointer = leader.next;
         leader.next = NewNode;
@@ -76,7 +57,7 @@ class LinkedList {
         this.length++;
         return this;
     }
-
+    //find the index you will insert or delete in it
     findIndex(index) {
         let counter = 0;
         let currentNode = this.head;
@@ -88,9 +69,11 @@ class LinkedList {
     }
 
     remove(index) {
+        //check if the index doesn't exist or equal zero
         if (index >= this.length || index === 0) {
             return this
         }
+        //find the index you will insert or delete in it
         let leader = this.findIndex(index - 1);
         console.log(leader);
         const unWanted = leader.next;

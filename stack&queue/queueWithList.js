@@ -9,6 +9,22 @@ class Node {
     }
 }
 
+/*
+************(FIFO)*************
+*   the point of queue that you
+*   will insert in the last of it
+*   and remove from the start
+*/
+
+/*
+*   ====> recommendation
+*   yoy should NOT implement queue
+*   with ==> ARRAY <==
+*   because of shifting index in array
+*   when you remove the first index
+*/
+
+
 class QueueWithList {
     constructor() {
         this.first = null;
@@ -45,7 +61,7 @@ class QueueWithList {
         const HoldingPointer = this.first;
         this.first = this.first.next;
         HoldingPointer.next = null;
-        console.log("--> "+ HoldingPointer.value + " => deleted");
+        console.log("--> " + HoldingPointer.value + " => deleted");
         this.length--;
         return HoldingPointer;
     }
@@ -65,6 +81,8 @@ myQueue.enqueue("js");
 myQueue.enqueue("node");
 myQueue.enqueue("python");
 myQueue.enqueue("ruby");
+myQueue.peek("ruby");
+console.log("++++++++++++++++++++");
 myQueue.printQueue();
 console.log("--------------------");
 myQueue.dequeue();//js

@@ -10,6 +10,15 @@ class Node {
     }
 }
 
+/*
+*   ====> recommendation
+*   yoy can implement stack
+*   with ==> ARRAY <==
+*   because of you will not need
+*   shifting index in array
+*   when you remove the last index
+ */
+
 class StackList {
     constructor() {
         this.ArrayStack = [];
@@ -34,7 +43,7 @@ class StackList {
     }
 
 
-    //print the stack values
+    //print the stack&queue values
     printStack() {
         let Stack = this.ArrayStack;
         Stack.forEach(node=>{

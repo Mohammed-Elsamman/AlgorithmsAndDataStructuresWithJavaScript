@@ -42,29 +42,6 @@ class DoubleLinkedList {
     }
 
     insert(index, value) {
-        // if (index > this.length - 1) {
-        //     console.log(`index of ${index} does not existing`)
-        // } else if (index == 0) {
-        //     this.prepend(value)
-        // } else if (index == this.length - 1) {
-        //     this.append(value)
-        // } else {
-        //     const NewNode = new Node(value)
-        //     let head = this.head;
-        //     let NumIndex = 0;
-        //     while (head != null) {
-        //         if (index - 1 == NumIndex) {
-        //             let HoldPointer = head.next;
-        //             head.next = NewNode;
-        //             NewNode.next = HoldPointer;
-        //             this.length++;
-        //         } else {
-        //             head = head.next;
-        //         }
-        //         NumIndex++;
-        //     }
-        // }
-
         if (index >= this.length) {
             return this.append(value)
         }
