@@ -9,7 +9,7 @@ class Node {
 
 /*
 ************(TREE)*************
-*   the point of tree that you
+*   the point of Tree that you
 *   will insert in any index fast
 *   and remove from anu index fast
 *   and it will be sorted
@@ -32,7 +32,7 @@ class BinaryTree {
         } else {
             let CurrentNode = this.root;
             let flag = 0;
-            //(while) => because you did not know how many nodes in the tree
+            //(while) => because you did not know how many nodes in the Tree
             while (flag === 0) {
                 //inserted value >= the current node value
                 if (value >= CurrentNode.value) {
@@ -62,7 +62,7 @@ class BinaryTree {
             return false;
         } else {
             let CurrentNode = this.root;
-            //(while) => because you did not know how many nodes in the tree
+            //(while) => because you did not know how many nodes in the Tree
             while (CurrentNode) {
                 //lookup value < the current node value
                 if (value < CurrentNode.value) {
@@ -90,7 +90,7 @@ class BinaryTree {
         } else {
             let CurrentNode = this.root;
             //find the parent of the node we will delete it
-            //to re connect the tree after delete the node
+            //to re connect the Tree after delete the node
             let parentNode = null;
             //while ==> why???? think || remember
             while (CurrentNode) {
@@ -147,7 +147,7 @@ class BinaryTree {
                         while (leftMost.left) {
                             leftMostParent = leftMost;
                             leftMost = leftMost.right;
-                            //we change the subtree of the tree by looping
+                            //we change the subtree of the Tree by looping
                         }
                         leftMostParent.left = leftMost.right;
                         leftMost.left = CurrentNode.left;

@@ -26,7 +26,7 @@ class StackWithList {
         this.length = 0;
     }
 
-    //push new node into stack&queue
+    //push new node into Stack&Queue
     push(value) {
         const NewNod = new Node(value);
         if (this.length === 0) {
@@ -59,7 +59,7 @@ class StackWithList {
     }
 
 
-    //print the stack&queue values
+    //print the Stack&Queue values
     printStack() {
         let head = this.top;
         while (head != null) {

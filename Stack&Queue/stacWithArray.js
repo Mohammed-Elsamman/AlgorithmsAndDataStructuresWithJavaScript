@@ -43,7 +43,7 @@ class StackList {
     }
 
 
-    //print the stack&queue values
+    //print the Stack&Queue values
     printStack() {
         let Stack = this.ArrayStack;
         Stack.forEach(node=>{

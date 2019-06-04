@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0591385b-d283-4a5d-9ae3-137ea644ad1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/BinaryTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doublelinkdlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/doublelinkdlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkdlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/singlelinkdlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queueWithList.js" beforeDir="false" afterPath="$PROJECT_DIR$/stack&amp;queue/queueWithList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stacWithArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/stack&amp;queue/stacWithArray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stackWithList.js" beforeDir="false" afterPath="$PROJECT_DIR$/stack&amp;queue/stackWithList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/graph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/doublelinkdlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/doublelinkdlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/singlelinkdlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/singlelinkdlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack&amp;queue/queueWithList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Stack&amp;Queue/queueWithList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack&amp;queue/stacWithArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/Stack&amp;Queue/stacWithArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack&amp;queue/stackWithList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Stack&amp;Queue/stackWithList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/BinaryTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/BinaryTree.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,12 +21,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/graph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="648">
+              <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Recursion/recursionFactorial.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tree/BinaryTree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -84,6 +103,7 @@
         <option value="$PROJECT_DIR$/h.js" />
         <option value="$PROJECT_DIR$/linkedlist/doublelinkdlist.js" />
         <option value="$PROJECT_DIR$/Graph/graph.js" />
+        <option value="$PROJECT_DIR$/Recursion/recursionFactorial.js" />
       </list>
     </option>
   </component>
@@ -109,12 +129,12 @@
             <path>
               <item name="AlgorithmsAndDataStructuresWithJavaScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmsAndDataStructuresWithJavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmsAndDataStructuresWithJavaScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmsAndDataStructuresWithJavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,18 +196,19 @@
       <workItem from="1558923876588" duration="351000" />
       <workItem from="1558926956815" duration="4480000" />
       <workItem from="1559009564892" duration="1691000" />
-      <workItem from="1559447225665" duration="3633000" />
+      <workItem from="1559447225665" duration="4470000" />
+      <workItem from="1559652971100" duration="1803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29765000" />
+    <option name="totallyTimeSpent" value="32405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2692521" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27257618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -200,7 +221,7 @@
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3344191" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -213,21 +234,21 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/queues.js" />
-    <entry file="file://$PROJECT_DIR$/linkedlist/singlelinkdlist.js">
+    <entry file="file://$PROJECT_DIR$/LinkedList/singlelinkdlist.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2204">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stack&amp;queue/stacWithArray.js">
+    <entry file="file://$PROJECT_DIR$/Stack&amp;Queue/stacWithArray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stack&amp;queue/stackWithList.js">
+    <entry file="file://$PROJECT_DIR$/Stack&amp;Queue/stackWithList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-556">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
@@ -238,14 +259,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/h.html" />
-    <entry file="file://$PROJECT_DIR$/tree/BinaryTree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stack&amp;queue/queueWithList.js">
+    <entry file="file://$PROJECT_DIR$/Stack&amp;Queue/queueWithList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="11" selection-start-line="11" selection-end-line="16" selection-end-column="2" />
@@ -257,7 +271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/h.js" />
     <entry file="file://$PROJECT_DIR$/h.txt" />
-    <entry file="file://$PROJECT_DIR$/linkedlist/doublelinkdlist.js">
+    <entry file="file://$PROJECT_DIR$/LinkedList/doublelinkdlist.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1247">
           <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
@@ -266,8 +280,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph/graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="648">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/BinaryTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recursion/recursionFactorial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
