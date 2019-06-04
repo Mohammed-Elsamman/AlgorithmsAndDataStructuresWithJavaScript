@@ -3,19 +3,20 @@
      5! = 5 * 4 * 3 * 2 * 1 = 120;
 */
 
-findFactorialRecursive = (number) => {
+factorialRecursive = (number) => {
     if (number === 2) {
         return 2
     }
 
-    return number * findFactorialRecursive(number - 1);
+    return number * factorialRecursive(number - 1);
 };
 
-let answerR = findFactorialRecursive(5);
+let answerR = factorialRecursive(5);
 console.log(answerR);
 
+//----------------------------------------------------------
 
-findFactorialIterative = (number) => {
+factorialIterative = (number) => {
     let result = 1;
     if (number === 2) {
         return 2;
@@ -26,7 +27,5 @@ findFactorialIterative = (number) => {
     }
     return result;
 };
-
-let answerI = findFactorialIterative(5);
-
+let answerI = factorialIterative(5);
 console.log(answerI);
